@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+
+#div{
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 500px;
+    width: 400px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+#p{
+    margin: 0%;
+    padding: 0%;
+    font-family: calibri;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 8px;
+    user-select: none;
+}
+
+#hr{
+    width: 300px;
+}
+
+#email{
+    margin: 0%;
+    padding: 0%;
+    font-family: calibri;
+    height: 36px;
+    width: 250px;
+    outline: none;
+    caret-color: turquoise;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-left: 69px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    user-select: none;
+}
+
+#password{
+    margin: 0%;
+    padding: 0%;
+    font-family: calibri;
+    height: 36px;
+    width: 250px;
+    outline: none;
+    caret-color: turquoise;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-left: 69px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    user-select: none;
+
+}
+
+a{
+    font-family: calibri;
+    text-decoration: none;
+    padding: 0%;
+    color: blueviolet;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 70px;
+    transition: 0.3s;
+    user-select: none;
+}
+
+a:hover{
+   color: blueviolet;
+}
+
+a:active{
+   color: #0095f6;
+
+}
+
+#button{
+    margin: 0%;
+    padding: 0%;
+    font-family: calibri;
+    height: 42px;
+    width: 261px;
+    outline: none;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 14px;
+    font-size: 22px;
+    background-color: rgb(71, 177, 71);
+    transition: 0.3s;
+    padding-bottom: 2px;
+    user-select: none;
+}
+
+#button:hover{
+    box-shadow: 0 1px 0px 0px blueviolet;
+    background-color: #0095f6;
+}
+
+#button:active{
+    transform: translateY(2px);
+}
+
+
+
+
