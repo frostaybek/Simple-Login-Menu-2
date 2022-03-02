@@ -1,79 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+    height: 100vh;
+    width: 100%;
+}
+
+::selection{
+    color: white;
+    background-color: rgb(128, 1, 128);
 }
 
 #div{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
-    height: 500px;
-    width: 400px;
-    margin-top: 100px;
-    background-color: white;
+    height: 400px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
 }
 
 #p{
-    margin: 0%;
-    padding: 0%;
-    font-family: calibri;
     text-align: center;
     font-size: 32px;
-    margin-top: 8px;
-    user-select: none;
+    margin-top: 12px;
 }
 
-#hr{
-    width: 300px;
+.hr{
+   border: none;
+   height: 2px;
+   background-color: rgb(167, 159, 159);
+   margin: 12px 0px;
 }
 
 #email{
-    margin: 0%;
-    padding: 0%;
-    font-family: calibri;
     height: 36px;
     width: 250px;
     outline: none;
-    caret-color: turquoise;
-    border: 1px solid lightgray;
+    caret-color: rgb(0, 0, 0);
+    border: 1px solid rgb(182, 172, 172);
     border-radius: 4px;
-    margin-left: 69px;
-    margin-top: 10px;
     padding-left: 10px;
     font-size: 20px;
     user-select: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
 }
 
 #password{
-    margin: 0%;
-    padding: 0%;
-    font-family: calibri;
     height: 36px;
     width: 250px;
     outline: none;
-    caret-color: turquoise;
-    border: 1px solid lightgray;
+    caret-color: black;
+    border: 1px solid rgb(182, 172, 172);
     border-radius: 4px;
-    margin-left: 69px;
-    margin-top: 10px;
     padding-left: 10px;
     font-size: 20px;
     user-select: none;
-
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 
 a{
-    font-family: calibri;
     text-decoration: none;
-    padding: 0%;
     color: blueviolet;
     font-size: 15px;
-    display: inline-block;
-    margin-left: 70px;
-    transition: 0.3s;
-    user-select: none;
+    margin-left: 36px;
+    transition: all ease 0.3s;
 }
 
 a:hover{
@@ -82,22 +85,19 @@ a:hover{
 
 a:active{
    color: #0095f6;
-
 }
 
 #button{
-    margin: 0%;
-    padding: 0%;
-    font-family: calibri;
     height: 42px;
-    width: 261px;
+    width: 120px;
     outline: none;
-    border: 0px;
-    color: white;
+    border: none;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 70px;
-    margin-top: 14px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 24px;
     font-size: 22px;
     background-color: rgb(71, 177, 71);
     transition: 0.3s;
@@ -106,14 +106,36 @@ a:active{
 }
 
 #button:hover{
-    box-shadow: 0 1px 0px 0px blueviolet;
-    background-color: #0095f6;
+    background-color: rgb(45, 134, 45);
 }
 
 #button:active{
     transform: translateY(2px);
 }
 
+#button-2{
+    height: 42px;
+    width: 180px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 14px;
+    font-size: 22px;
+    background-color: rgb(144, 165, 24);
+    transition: 0.3s;
+    padding-bottom: 2px;
+    user-select: none;
+    margin-bottom: 22px;
+}
 
+#button-2:hover{
+    background-color: rgb(96, 110, 11);
+}
 
-
+#button-2:active{
+    transform: translateY(2px);
+}
